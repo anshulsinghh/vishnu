@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vishnu</title>
+    <link rel="icon" 
+      type="image/jpeg" 
+      href="https://lh3.googleusercontent.com/Byls-tUEZOZTSIN_TGJc1bGjRfv2qAAFJdTRMS7JIb0soU70au8_p0lootF2ghmoEJO4Uyq9OWSsyuFF9ncyA9Ia-Vcwr19GW98iUtF-2WWzz6yT2AQstNVzDC4SOA77Ew9TQOT0i6reSeQy3COvBhw_l42JyXDZD-BkvpJ2wPTC3Ik1PNM0Atbg1bXJcLQqLLKGUasHI5iQcggxzrMLZdcgvuFlmKo0-o2PQChSQQ0X5X2u7rECAE6NRj3HYOUo_QC2Gk94gzjAyohbTMaNUN3o9-Uo10weGiiu2s4VfFGyt6R1wttbtcyUrf6G5joBNCTh421Xfq8p-BX7FIueJzYX4lm2yufgMoW5lOJgU26ZNy8fhn6Ll42UQeBZ6TH80QH1RUebayKED_Oj7s1nIZkJDgq72onH1x-LnyB-YyhtjmUBcYJO2LT4J-FkiInncOdLEpMS2gzL8uGAywkb0I36Y3ZfQarr-CPpX52N9MFjsKl9_CDIl5ukFBtmk5Z8DfjwTmv7JDTREZoHkcUHIShEq_DVmuOd1LJ7livpYIrWBAlQRGgGvL0y0sBVWlz4Vg-RI1FUZKpYNi9DAphUiQKbA_77EeUvegqx6P0=w426-h586-no"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button id="expandbutton" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <span><img id="navbarimg" style="line-height: 1000px;" src="http://www.mfmvirginia.org/wp-content/uploads/2014/06/Praying-hands-praying-hand-prayer-hands-clipart-clipart-image-9-4.jpeg"/></span>
+                Vishnu
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="/commands.html">Commands</a></li>
+              <li><a href="/memeleaderboard.html">Meme Leaderboard</a></li>
+              <li><a href="/courses.html">Courses</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    <h1 style="font-size: 20px;">Meme Leaderboard</h1>
+    <div class="table-responsive-xs">
+      <table class="table table-hover" id="myTable">
+        <thead>
+          <tr>
+            <th class="col-xs-1">#</th>
+            <th class="col-xs-10">Name</th>
+            <th class="col-xs-1">Points</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Loading...</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="leaderboardscript.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>

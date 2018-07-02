@@ -1,0 +1,24 @@
+{
+  "name": "VishnuBot",
+  "author": "Anshul Singh",
+  "description": "This is a discord bot, mainly dedicated for the <heaven> server.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://glitch.com/edit/#!/first-app-node"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "discord.js": "^11.3.2",
+    "express": "^4.16.3",
+    "jsonfile": "^4.0.0",
+    "random-puppy": "^1.1.0",
+    "request": "^2.87.0",
+    "socket.io": "^2.1.1"
+  }
+}
