@@ -1,5 +1,5 @@
 {
-  "name": "VishnuBot",
+  "name": "Vishnu",
   "author": "Anshul Singh",
   "description": "This is a discord bot, mainly dedicated for the <heaven> server.",
   "version": "1.0.0",
@@ -9,9 +9,6 @@
     "start": "node index.js"
   },
   "license": "MIT",
-  "repository": {
-    "url": "https://glitch.com/edit/#!/first-app-node"
-  },
   "dependencies": {
     "bootstrap": "^4.1.1",
     "discord.js": "^11.3.2",
